@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+}
+
+.instagram-card {
+    width: 300px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.card-header, .card-footer {
+    padding: 10px;
+}
+
+.user-avatar {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    margin-right: 10px;
+    float: left;
+    align-self: center;
+}
+
+.user-name {
+    line-height: 40px;
+}
+
+.post-image {
+    width: 100%;
+    display: block;
+}
+
+.icons {
+    font-size: 12px;
+}
+
+.icons span {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.description {
+    margin-top: 5px;
+}
+
+.description strong {
+    margin-right: 5px;
+}
