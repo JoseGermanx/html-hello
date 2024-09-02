@@ -1,0 +1,25 @@
+
+body {
+    background-color: black ;
+    display: flex;
+
+}
+
+.contenedor-principal {
+    width: 300px;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.header {
+    display: flex;
+}
+
+.user-name h3 {
+    margin-top: 0;
+}
+
+.avatar {
+    width: 25px ;
+    height: 25px;
+}
